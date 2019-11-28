@@ -1,9 +1,6 @@
-try:
-    n=int(input())
-except ValueError:
-    print('value error')
-except EOFError:
-    print('error')
-except KeyboardInterrupt:
-    print('caught KeyboardInterrupt')
+while(1):
+    try:
+        n=int(input())
+    except:
+        print("error ocurred")
 
